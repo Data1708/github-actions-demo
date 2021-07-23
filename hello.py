@@ -1,7 +1,7 @@
-def add(x, y):
-    """This is an add function"""
+def transform(x, y):
 
-    return x + y
+    z = x + y
+    k = z*2
+    return k
 
-
-print(add(1, 1))
+print(transform(1,2))

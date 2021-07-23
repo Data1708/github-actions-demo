@@ -1,5 +1,5 @@
-from hello import add
+from hello import transform
 
 
 def test_add():
-    assert 2 == add(1, 1)
+    assert 6 == transform(1, 2)
